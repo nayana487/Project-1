@@ -9,8 +9,9 @@ $("#s1").click(function(event){
   event.preventDefault();
   var possibleAnswer = document.getElementsByName('q1');
   if ($('input[name=q1]:checked').val()== "Chile"){
-    alert("Correct");  
+    alert("Correct");
   }else alert("Incorrect")
+  
 })
 
 $("input[type=radio]").attr('disabled', false)
