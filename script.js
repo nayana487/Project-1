@@ -11,8 +11,6 @@ $("#s1").click(function(event){
   if ($('input[name=q1]:checked').val()== "Chile"){
     alert("Correct");
   }else alert("Incorrect")
-  $("div").slideUp();
-
 })
 
 $("input[type=radio]").attr('disabled', false)
