@@ -34,7 +34,7 @@ form{
   font-size: 24pt;
   color: white;
 }
-input[type="radio]"{
+input[type="radio"]{
   border: 2px solid red;
   width: 15px;
   height: 15px;
